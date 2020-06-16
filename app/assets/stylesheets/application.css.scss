@@ -35,6 +35,22 @@ h1, h2, h3 {
     border: none;
 }
 
+.navbar-brand {
+    font-family: 'Open Sans', san-serif;
+    font-weight: 800;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+    &:hover, &:focus {
+        background-color: #3f2b96;
+    }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
 .home-callout {
     margin-top: -20px;
     padding-top: 50px;
